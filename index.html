@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo do Número Secreto</h1>
+    </header>
+
+    <section>
+        <div>
+            <h2 id="bemvindo">Bem vindo ao jogo</h2>
+        </div>
+        <div>
+            <p id="paragrafo">Escolha um número entre 1 e 100</p>
+        </div>
+        <div>
+            <input type="number" name="chute" id="chute">
+        </div>
+        <div>
+            <button type="button" onclick="chutar()" id="chutar">Chutar</button>
+            <button type="button" onclick="novo()" id="novo" disabled>Novo Jogo</button>
+        </div>
+        <div>
+            <p id="num_chutados"></p>
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            <p>
+            <strong>Powered by Leo Araújo</strong> <br>
+            leopycode@gmail.com
+        </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

@@ -5,6 +5,10 @@ Jogo do Número Secreto
 
 Jogo criado para praticar JavaScript, além de HTML e CSS
 
+O jogo está disponível no link: https://jogo-num-secreto-one.vercel.app/
+
+---
 
 Powered by Leonardo Araújo
+
 abril2026
